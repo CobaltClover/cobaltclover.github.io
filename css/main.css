@@ -1,4 +1,21 @@
 body {
-	background-color: #5010F0;
+	width: 95%;
+	background-color #E0E0E0;
+	border: solid #5010F0;
 
+}
+
+nav {
+	width: 80ch;
+	background-color: #B080B0;
+	border: double #6020A0;
+	padding 4px;
+	margin 2px;
+}
+
+.box {
+	width: 80ch;
+	border: dashed #5010F0;
+	padding: 4px;
+	margin: 2px;
 }
