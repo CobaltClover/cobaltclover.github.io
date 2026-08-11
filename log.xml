@@ -2,17 +2,24 @@
 <rss version="2.0">
 
 <channel>
-		<title> Clover's Fresh Sprouts </title>
-		<link> https://cobaltclover.github.io </link>
-		<description> I hope I remember this exists =} </description>
+	<title> Clover's Fresh Sprouts </title>
+	<link> https://cobaltclover.github.io </link>
+	<description> I hope I remember this exists =} </description>
 
-		<item>
-				<title> TEMPLATE </title>
-				<link> https://cobaltclover.github.io </link>
-				<description> Tolate to muck about
-						lest parents get angry =[ </description>
-				<pubDate>Wen, 01 Oct 2025 10:55:00 -0400</pubDate>
-		</item>
+	<item>
+		<title> xcursors </title>
+		<link> https://cobaltclover.github.io/xcursors </link>
+		<description> learn a bit on how to set up a basic custom cursor pack </description>
+		<pubDate>Tus, 11 Aug 2026 13:16:00 -0400</pubDate>
+
+
+	<item>
+		<title> TEMPLATE </title>
+		<link> https://cobaltclover.github.io </link>
+		<description> Tolate to muck about
+				lest parents get angry =[ </description>
+		<pubDate>Wen, 01 Oct 2025 10:55:00 -0400</pubDate>
+	</item>
 </channel>
 
 </rss>

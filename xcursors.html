@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>For all your x11 needs</title>
+		<link href="./css/main.css" rel="stylesheet" type="text/css">
+		<link rel="alternate" type="application/atom+xml"
+		title="Clover's Fresh Sprouts"
+		hrf=https://cobaltclover.github.io/log.xml">
+	</head>
+
+	<body>
+
+		<nav>
+				<ul>
+						<li><a href="./index.xml">back home you go</a></li>
+				</ul>
+		</nav>
+		<div class=box>
+		<h1>How to create a custom cursor</h1>
+			<p> a farce in three parts</p>
+			<p><a href="#setup">setup</a></p>
+			<p><a href="#names">names</a></p>
+			<p><a href="#end">end</a></p>
+		</div>
+		<div class=box>
+		<h2 id="setup">Some setup first</h2>
+		
+			<p>I got some of the more <a href="https://pixelbeat.org/programming/x_cursors"><em>obscure names</em></a>here although xcursors seems to honor css names for the cursor in the browser.</p>
+			<p> After geting a png of your cursors (around ten will do for basic processes). you must make a config file for xcursorgen. Note, grafx2 supports converting .cur from windows into a png. </p>
+			<p> SIZE X Y PATH/TO/PNG ms</p>
+			<p> you may chose to add diffrent sizes or animate the cursor with diffrent png, so long as you include the optional frame data (1000 makes a second).</p>
+			<p> x and y is the pixel you use to interact (0, 0 is top left)</p>
+			<h3> for gtk cursor on xfce </h3>
+			<p>in (~/.icons) make a dir for your cursors then make a file called inxed.theme. In the first line put "[Icon Theme]" and the second line put "Name=DIRNAME" you may also add comments and chose to inherit from prexisting themes (Comment=TXT and Inherits=OTHERPACKS). </p>
+			<p> then you can simply go to mouse and touchpad app and under theme you should find your cursor theme.</p>
+		</div>	
+
+		<div class=box>
+		<h2 id="names">cursor names</h2>
+
+		<p> run "xcursorgen CONF OUTPUT" where CONF is the file determening cursor propertys and OUTPUT must be named one of the following </p>
+		<ul>
+			<li><img src="img/amethyst_pointer.png" alt="left_ptr" title="left_ptr"><p> your main cursor</p></li>
+			<li><img src="img/amethyst_ptr_hourglass.png" alt="left_ptr_watch" title="left_ptr_watch"> <p> shows in preview but haven't had the chance to test it yet</p></li>
+			<li><img src="img/amethyst_hourglass.png" alt="watch" title="watch"><p>likewise</p</li>
+			<li><img src="img/amethyst_cursor.png" alt="text" title="text"> </li>
+			<li><img src="img/amethyst_arrow_ns.png" alt="top_side & bottom_side" title="top_side & bottom_side"> </li>
+			<li><img src="img/amethyst_arrow_ew.png" alt="left_side & right_side" title="left_side & right_side"> </li>
+			<li><img src="img/amethyst_arrow_nw_se.png" alt="top_left_corner & bottom_right_corner" title="top_left_corner & bottom_right_corner"></li>
+			<li><img src="img/amethyst_arrow_sw_ne.png" alt="top_right_corner & bottom_left_corner" title="top_right_corner & bottom_left_corner"></li>
+			<li><img src="img/amethyst_arrow_four.png" alt="fleur" title="fleur"><p>may also define grab, grabbing and all-resize for css while your at it.</p></li>
+			<li><img src="img/citrine.png" alt="text" title="text"><p> used for hyperlinks, may also define hand2 for the terminal</p></li>
+			<li><img src="img/flashyPointer.png" alt="default" title="default"><p>although i dont find default to be that useful, make sure to also define X_cursor and/or xterm to fix an oneko bug =]</p></li>
+			<br>
+			<p> cursors taken from <a href="dopcom.net/downloads">here</a><p>
+		</ul>
+		</div>
+
+		<div class=box>
+		<h2 id="end">final remarks</h2>
+		<p>What a complex way of doing things. I mostly made this page for my self so I dont forget the icon alt dragging makes is called a fleur for what ever reason. Although i hope this helps anyone (bty check source for a list of alt text if you can't see it for whatever reason). There are way to many cursors defined with no actuall description for what they are used for so you may find it confusing on what cursors are really nessesary, so i hope this 'guide' helps you in that.</p>
+		</div>
+	</body>
+</html>
