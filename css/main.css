@@ -1,6 +1,6 @@
 body {
 	width: 95%;
-	background-color #A682FF; /* or #E0E0E0*/
+	background-color: #A682FF; /* or #E0E0E0*/
 	border: solid #5010F0;
 
 }
@@ -9,8 +9,8 @@ nav {
 	width: 80ch;
 	background-color: #B080B0;
 	border: double #6020A0;
-	padding 4px;
-	margin 2px;
+	padding: 4px;
+	margin: 2px;
 }
 
 .box {
